@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API-Application Platform Interface</title>
+</head>
+<body>
+    <div id="cards-container">
+
+    </div>
+    <style>
+        .card{
+            width: 250px;
+            border: 1.5px solid #c2b2b2;
+            border-radius: 7px;
+            padding: 17px;
+            margin: 17px;
+            box-shadow: 2px 2px 13px rgba(0,0,0,0.1);
+        }
+        .card h3{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .card p{
+            font-size: 17px;
+            color:#171515
+         }
+        #cards-container{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    </style>
+    <script src="./app.js"></script>
+</body>
+</html>
